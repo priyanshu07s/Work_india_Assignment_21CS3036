@@ -1,9 +1,9 @@
 # Work_india_Assignment_21CS3036
 Railway Management System
 
-Problem Statement
+# Problem Statement
 
-You have been assigned to create a railway management system similar to IRCTC. Users should be able to:
+To create a railway management system similar to IRCTC. Users should be able to:
 
 Check train availability between two stations.
 
@@ -13,11 +13,11 @@ Book seats if available after logging in.
 
 The system must handle multiple users booking seats simultaneously, preventing double booking (race conditions). The code should be optimized for real-time performance and high traffic.
 
-Project Overview
+# Project Overview
 
 This system allows users to register, check train availability, and book seats. Admins can manage trains and seat availability. The backend is built with Node.js, Express.js, and MySQL.
 
-Features
+# Features
 
 User Registration & Login
 
@@ -33,7 +33,7 @@ Role-Based Access Control (Admin/User)
 
 Error Handling & Input Validation
 
-Prerequisites
+# Prerequisites
 
 Ensure you have the following installed:
 
@@ -43,7 +43,7 @@ MySQL (Database setup required)
 
 Postman (for API testing)
 
-Environment Setup
+# Environment Setup
 
 Create a .env file in the project root and add:
 
@@ -55,14 +55,14 @@ DB_NAME=irctc_db
 JWT_SECRET=your_jwt_secret
 API_KEY=your_admin_api_key
 
-Installation
+# Installation
 
 Clone the repository and install dependencies:
 
 
 npm install
 
-Set up the MySQL database:
+# Set up the MySQL database:
 
 CREATE DATABASE irctc_db;
 USE irctc_db;
@@ -95,7 +95,7 @@ CREATE TABLE bookings (
    FOREIGN KEY (train_id) REFERENCES trains(id)
 );
 
-Running the Server
+# Running the Server
 
 Start the server with:
 
@@ -103,7 +103,7 @@ npm start
 
 Default API URL: http://localhost:3000
 
-API Endpoints
+# API Endpoints
 
 User Routes
 
@@ -185,7 +185,7 @@ Sample Train Data
   {"trainNumber": "125125", "source": "Gorakhpur", "destination": "Bengaluru", "totalSeats": 400}
 ]
 
-Technologies Used
+# Technologies Used
 
 Node.js - Backend logic
 
@@ -199,7 +199,7 @@ bcrypt - Password hashing
 
 dotenv - Manage environment variables
 
-Future Enhancements
+# Future Improvements for this project 
 
 Add frontend (React/Angular)
 
@@ -209,7 +209,4 @@ Send booking confirmation emails
 
 Integrate payment gateway
 
-Contributing
-
-Fork the repository and submit pull requests for enhancements or bug fixes!
 
