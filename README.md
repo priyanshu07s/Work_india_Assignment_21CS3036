@@ -48,12 +48,19 @@ Postman (for API testing)
 Create a .env file in the project root and add:
 
 PORT=3000
+
 DB_HOST=localhost
+
 DB_USER=root
+
 DB_PASSWORD=yourpassword
+
 DB_NAME=irctc_db
+
 JWT_SECRET=your_jwt_secret
+
 API_KEY=your_admin_api_key
+
 
 # Installation
 
