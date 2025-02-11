@@ -15,7 +15,11 @@ The system must handle multiple users booking seats simultaneously, preventing d
 
 # Project Overview
 
-This system allows users to register, check train availability, and book seats. Admins can manage trains and seat availability. The backend is built with Node.js, Express.js, and MySQL.
+This system allows users to register, check train availability, and book seats. 
+
+Admins can manage trains and seat availability. 
+
+The backend is built with Node.js, Express.js, and MySQL.
 
 # Features
 
@@ -65,6 +69,7 @@ API_KEY=your_admin_api_key
 # Installation
 
 Clone the repository and install dependencies:
+https://github.com/priyanshu07s/Work_india_Assignment_21CS3036.git
 
 
 npm install
