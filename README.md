@@ -69,7 +69,7 @@ API_KEY=your_admin_api_key
 # Installation
 
 Clone the repository and install dependencies:
-https://github.com/priyanshu07s/Work_india_Assignment_21CS3036.git
+git clone https://github.com/priyanshu07s/Work_india_Assignment_21CS3036.git
 
 
 npm install
